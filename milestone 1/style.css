@@ -1,0 +1,85 @@
+body   {
+    background-color:beige;
+}
+h1     {
+    color:black;
+    font-size: 28pt;
+    font-family: 'Times New Roman';
+}
+.resume-container {
+    display:flex;
+    background-color: blue;
+    width:80%;
+    margin:0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-radius: 50%;
+    border-color: blue;
+}
+.left-section {
+    background-color: aquamarine;
+    color: white;
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+    border-right: 5px solid red;
+}
+h3 {
+    font-size:18px ;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    padding:2% ;
+    border-radius: 10px;
+    box-shadow: 0 0 15px red;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+p {
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    color: blueviolet;
+    hyphens: auto;
+}
+.right-section {
+    background-color:rgb(52, 165, 42);
+    color: white;
+    padding: 20px;
+    width: 65%;
+    text-align: center;
+    border-right: 5px solid red;
+}
+h1 {
+    font-size: 24px;
+font-family: 'Times New Roman', Times, serif;
+color: black;
+text-align: center;
+margin: 10px;
+margin-bottom: 30px;
+margin-top: 5% ;
+}
+ul {
+    list-style: fill round;
+    padding: 10;
+    margin: 10px;
+    color: black;
+    text-align: justify ;
+}
+ul li {
+    margin: 5px 0;
+}
+button {
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    box-shadow: 0 0 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+}
